@@ -1,7 +1,7 @@
 const path = "/users/download/index.html"
 
 
-const isHtml = pat => {
+const isHtml = path => {
     const requiredExt = ".html";
     const PathExt = path.slice(-5);
     return PathExt == requiredExt
